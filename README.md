@@ -35,12 +35,17 @@ OptiCrop is an AI-powered crop recommendation system that suggests the most suit
         OptiCrop/
 OptiCrop/
 │
+
 ├── app.py                      # Main Flask application
 
 ├── train_model.py              # Model training script
+
 ├── requirements.txt            # Required Python packages
+
 ├── README.md                   # Project documentation
+
 │
+
 ├── data/
 │   └── Crop_recommendation.csv # Agricultural dataset
 │
