@@ -33,38 +33,61 @@ OptiCrop is an AI-powered crop recommendation system that suggests the most suit
  📂 Project Structure   
 
         OptiCrop/
+OptiCrop/
 │
+
 ├── app.py                      # Main Flask application
+
 ├── train_model.py              # Model training script
+
 ├── requirements.txt            # Required Python packages
+
 ├── README.md                   # Project documentation
+
 │
+
 ├── data/
+
 │   └── Crop_recommendation.csv # Agricultural dataset
+
 │
+
 ├── models/
+
 │   ├── crop_model.pkl          # Trained crop prediction model
+
 │   ├── kmeans_model.pkl        # K-Means clustering model
+
 │   ├── label_encoder.pkl       # Label encoder
+
 │   └── model_name.txt          # Model information
+
 │
+
 ├── notebooks/
+
 │   └── OptiCrop_Analysis.ipynb # Data analysis & EDA notebook
+
 │
+
 ├── templates/
+
 │   ├── index.html              # User input page
+
 │   └── result.html             # Prediction result page
+
 │
+
 ├── static/
-│   └── images/
-│       ├── correlation_heatmap.png
-│       ├── crop_distribution.png
-│       └── temperature_rainfall.png
-│
-└── src/                        # Source files (currently empty)
 
-
-
+     └── images/
+     
+         ├── correlation_heatmap.png
+         
+         ├── crop_distribution.png
+         
+         └── temperature_rainfall.png
+         
 
  📊 Dataset
 
